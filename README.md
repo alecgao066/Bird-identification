@@ -2,7 +2,7 @@
 ### Background
 Bird identification is an in-class Kaggle competition, where we train a neuron network to classify in total 555 species of birds from photos. 
 The trainning data set contains over 38000 images with corresponding labels, and the test set has 10000 images for us to predict. Below are some samples of the dataset.
-![Examples from the data set]https://github.com/alecgao066/Bird-identification/blob/main/Demo/examples.JPG
+![Examples from the data set](https://github.com/alecgao066/Bird-identification/blob/main/Demo/examples.JPG)
 ### Resnet 18
 Resnet 18 pretrained on Imagenet data set is selected as the model. It's an effective model with light number of parameters. Here is some training tips.
 1. Data augumentation by random cropping/ flipping/ rotation.
