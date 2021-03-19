@@ -23,7 +23,7 @@ Here is some training tips.
 Achieved best accuracy is **79.5%**!
 
 ### Resnext 32 * 4d
-Resnext achieves better accuracy than Resnet on ImageNet rankings. It pretains the complexity as Resnet but accomplished more accurate predictions by adding cardinals. To further bring up the accuracy, I adopted Resnext 32 * 4d as the prediction modal. However, due to the time limit, the resnext model involved only reached to an accuracy of **66.65%**. I still need some more tuning to get it work better!
+Resnext achieves better accuracy than Resnet on ImageNet rankings. It pretains the low complexity as the Resnet but accomplished more accurate predictions by adding cardinals. To further bring up the accuracy, I adopted Resnext 32 * 4d as the prediction modal. However, due to the time limit, the resnext model involved only reached to an accuracy of **66.65%**. I still need some more tuning to get it work better!
 The future work will include trying increasing the batch size, using more training epochs and larger learining rates.
 
 ### Dicussions
