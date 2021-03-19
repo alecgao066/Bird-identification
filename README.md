@@ -23,12 +23,12 @@ Here is some training tips.
 Achieved best accuracy is **79.5%**!
 
 ### Resnext 32 * 4d
-Resnext achieves better accuracy than Resnet on ImageNet rankings. It pretains the complexity as Resnet but have more accurate predictions. However, due to the time limit, the resnext model involved only reached to an accuracy of **66.65%**. I still need some more tuning to get it work better!
+Resnext achieves better accuracy than Resnet on ImageNet rankings. It pretains the complexity as Resnet but accomplished more accurate predictions by adding cardinals. To further bring up the accuracy, I adopted Resnext 32 * 4d as the prediction modal. However, due to the time limit, the resnext model involved only reached to an accuracy of **66.65%**. I still need some more tuning to get it work better!
 The future work will include trying increasing the batch size, using more training epochs and larger learining rates.
 
 ### Dicussions
 The project is based on the starter's codes posted on Kaggle. The initial accuracy of the starter's codes is about 50%. After data augmentation, anneal learning, batch size and image size adjustment, the accuracy jumped to 78%.
-I hoped to find the best epoch number of training. Therefore, I trained from a checkpoint and trained the modal with less and more epochs seperately. The accuracy indicates epoch change doesn't help a lot. The assumption is that in this case, the modal should not be under fitting or over fitting.
+I hoped to test the best epoch number of training. Therefore, I trained from a checkpoint and trained the modal with less and more epochs seperately. The accuracy indicates epoch change doesn't help a lot. The assumption is that in this case, the modal should not be under fitting or over fitting.
 In the testing phase, the algorithm randomly crop some patches and then idnetify the predictions. The final prediction is based on the voting counts of all predictions
 ### Video
 The presentation video talks about detailed implementations.
