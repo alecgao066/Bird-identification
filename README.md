@@ -23,4 +23,5 @@ Achieved best accuracy is **79.5%**!
 Resnext achieves better accuracy than Resnet on ImageNet rankings. It pretains the complexity as Resnet but have more accurate predictions. However, due to the time limit, the resnext model involved only reached to an accuracy of **66.65%**. I still need some more tuning to get it work better!
 
 ### Video
-Link: 
+The presentation video talks about detailed implementations.
+Link: https://drive.google.com/file/d/1L3f4WMDvi7jEqMOYAWiCfxM02D2c4E8u/view?usp=sharing
